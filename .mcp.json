@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "askpolly": {
+      "type": "http",
+      "url": "${ASKPOLLY_MCP_URL:-https://app.askpolly.ai/api/mcp}",
+      "headers": {
+        "Authorization": "Bearer ${ASKPOLLY_API_TOKEN}"
+      }
+    }
+  }
+}

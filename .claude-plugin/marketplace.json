@@ -1,0 +1,14 @@
+{
+  "name": "askpolly",
+  "owner": {
+    "name": "AskPolly"
+  },
+  "description": "AskPolly market research and social listening tools for Claude Code.",
+  "plugins": [
+    {
+      "name": "askpolly",
+      "source": "./",
+      "description": "Query AskPolly market research studies, questions, and analysis tools directly from Claude."
+    }
+  ]
+}
