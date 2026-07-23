@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "askpolly": {
+    "tools": {
       "type": "http",
       "url": "${ASKPOLLY_PLUGIN_MCP_URL:-https://app.askpolly.ai/api/mcp}",
       "headers": {
