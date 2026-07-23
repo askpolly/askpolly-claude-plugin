@@ -1,9 +1,9 @@
 {
   "name": "askpolly",
-  "description": "Query AskPolly market research studies, questions, and analysis tools directly from Claude.",
+  "description": "Query askpolly market research studies, questions, and analysis tools directly from Claude.",
   "version": "0.1.0",
   "author": {
-    "name": "AskPolly"
+    "name": "askpolly"
   },
   "homepage": "https://app.askpolly.ai",
   "license": "MIT"

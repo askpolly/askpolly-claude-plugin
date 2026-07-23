@@ -1,10 +1,10 @@
 ---
-description: Query AskPolly market research studies and questions — social listening, sentiment, topics, and audience analysis. Use when the user asks about an AskPolly study, mentions askpolly.ai, or asks to analyze survey/social listening data that sounds like it lives in AskPolly.
+description: Query askpolly market research studies and questions — social listening, sentiment, topics, and audience analysis. Use when the user asks about an askpolly study, mentions askpolly.ai, or asks to analyze survey/social listening data that sounds like it lives in askpolly.
 ---
 
-# AskPolly
+# askpolly
 
-AskPolly is a market research and social listening platform. This skill gives you tools to find a user's studies, list the questions inside a study, and load a question's data for analysis (topics, sentiment, demographics, sources).
+askpolly is a market research and social listening platform. This skill gives you tools to find a user's studies, list the questions inside a study, and load a question's data for analysis (topics, sentiment, demographics, sources).
 
 ## Workflow
 
@@ -17,7 +17,7 @@ AskPolly is a market research and social listening platform. This skill gives yo
 
 ## Setup
 
-This skill needs an AskPolly Personal Access Token. Generate one from your AskPolly account settings, then set it before starting Claude Code:
+This skill needs an askpolly Personal Access Token. Generate one from your askpolly account settings, then set it before starting Claude Code:
 
 ```bash
 export ASKPOLLY_API_TOKEN="pat_..."
