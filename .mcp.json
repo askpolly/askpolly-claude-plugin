@@ -2,7 +2,7 @@
   "mcpServers": {
     "tools": {
       "type": "http",
-      "url": "${ASKPOLLY_PLUGIN_MCP_URL:-https://app.askpolly.ai/api/mcp}",
+      "url": "${ASKPOLLY_PLUGIN_MCP_URL:-https://staging.askpolly.ai/api/mcp}",
       "headers": {
         "Authorization": "Bearer ${ASKPOLLY_API_TOKEN}"
       }
