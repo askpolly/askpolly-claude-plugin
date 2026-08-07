@@ -1,4 +1,5 @@
 ---
+name: askpolly
 description: Query askpolly market research studies and questions — social listening, sentiment, topics, and audience analysis. Use when the user asks about an askpolly study, mentions askpolly.ai, or asks to analyze survey/social listening data that sounds like it lives in askpolly.
 ---
 

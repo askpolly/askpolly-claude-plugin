@@ -1,7 +1,7 @@
 {
   "name": "askpolly",
   "description": "Query askpolly market research studies, questions, and analysis tools directly from Claude.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "askpolly"
   },
