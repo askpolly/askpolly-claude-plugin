@@ -5,19 +5,31 @@ Query your [askpolly](https://app.askpolly.ai) market research studies — socia
 ## Install
 
 ```
-/plugin marketplace add advancedsymbolics/askpolly-claude-plugin
+/plugin marketplace add askpolly/askpolly-claude-plugin
 /plugin install askpolly@askpolly
 ```
 
 ## Setup
 
-1. Generate a Personal Access Token from your askpolly account settings (Settings → API Tokens).
-2. Set it as an environment variable before starting Claude Code:
+Click **Connect** on the askpolly connector when prompted, and sign in to your askpolly account in the browser. That's it — no token to copy or manage.
 
-   ```bash
-   export ASKPOLLY_API_TOKEN="pat_..."
-   ```
-3. Run `/reload-plugins` if Claude Code was already running.
+<details>
+<summary>Using a Personal Access Token instead</summary>
+
+The endpoint also accepts a PAT if you'd rather not use the browser sign-in —
+useful for CI or headless runs. Generate one under Settings → API Tokens, then
+add it to your own MCP config:
+
+```json
+{ "mcpServers": { "tools": {
+  "type": "http",
+  "url": "https://app.askpolly.ai/api/mcp",
+  "headers": { "Authorization": "Bearer pat_..." }
+}}}
+```
+
+Note that a `headers` block suppresses OAuth discovery, so use one or the other, not both.
+</details>
 
 ## What it does
 

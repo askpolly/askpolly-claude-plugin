@@ -2,10 +2,7 @@
   "mcpServers": {
     "tools": {
       "type": "http",
-      "url": "https://app.askpolly.ai/api/mcp",
-      "headers": {
-        "Authorization": "Bearer ${ASKPOLLY_API_TOKEN}"
-      }
+      "url": "https://app.askpolly.ai/api/mcp"
     }
   }
 }
